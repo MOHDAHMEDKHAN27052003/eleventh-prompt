@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+.ri-menu-line{
+    display: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px;
+}
+
+header img{
+    height: 75px;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main{
+    padding-left: 100px;
+    display: flex;
+}
+
+#main-content{
+    padding-top: 100px;
+}
+
+#main-content h1{
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+#main-content p{
+    padding-bottom: 25px;
+}
+
+#main-content button{
+    padding: 10px 33px;
+    border: 1px solid;
+}
+
+main img{
+    width: 1080px;
+}
